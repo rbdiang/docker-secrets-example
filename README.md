@@ -19,3 +19,6 @@ Output:
 Here is the secret greeting: for Brian
 Hello, Brian
 ```
+
+## Credit:
+Credit for this implementation comes from this [gist](https://gist.github.com/bvis/b78c1e0841cfd2437f03e20c1ee059fe#file-env_secrets_expand-sh)
