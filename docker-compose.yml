@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  simple:
+    image: simple
+    environment:
+      - GREET=DOCKER-SECRET->greeting
+      - NAME=Brian
+    secrets:
+       - greeting
+secrets:
+   greeting:
+     external: true 
